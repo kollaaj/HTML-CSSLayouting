@@ -1,0 +1,121 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  margin: 3.125rem;
+}
+
+hr {
+  border-top: 0.5rem solid white;
+  width: 24.625rem;
+}
+
+section {
+  display: flex;
+  justify-content: row;
+}
+
+.block {
+  background-image: url(/images/Rectangle\ 1.svg);
+  width: 47.5rem;
+  height: 67.2rem;
+  margin: 6.25rem;
+}
+
+.björk img {
+  position: relative;
+  width: 22.44rem;
+  height: 28.7rem;
+  left: 16.56rem;
+  top: 19.25rem;
+  z-index: 0;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  font-size: 25.875rem;
+  color: white;
+}
+
+.name .bj {
+  position: relative;
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: -1rem;
+  line-height: 0;
+  left: 1.5rem;
+  bottom: 17rem;
+}
+
+.name .ö {
+  position: relative;
+  font-family: "Paytone One", sans-serif;
+  font-size: 26.25rem;
+  line-height: 0;
+  transform: rotate(-90deg);
+  right: 6.5rem;
+  bottom: 8rem;
+}
+
+.name .rk {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.8rem;
+  line-height: 0;
+  left: 1.5rem;
+  top: 26rem;
+  z-index: 1;
+}
+
+.info {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.873rem;
+  letter-spacing: -0.01rem;
+  line-height: 3rem;
+  color: white;
+  transform: rotate(90deg);
+  left: 18.5rem;
+  bottom: 5.7rem;
+}
+
+.info2 {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.875rem;
+  letter-spacing: -0.01rem;
+  line-height: 3rem;
+  transform: rotate(90deg);
+  color: white;
+  left: 18.25rem;
+  top: 14rem;
+}
+
+.s-line {
+  position: relative;
+  border-top: 0.5rem solid white;
+  width: 3rem;
+  left: 13.5rem;
+  bottom: 1.875rem;
+}
+
+.original {
+  margin: 6.25rem;
+}
